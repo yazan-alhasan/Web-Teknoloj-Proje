@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 100px 10px 200px;
 }
 
 .logo{
@@ -38,11 +38,8 @@ header{
     color: #601cfc;
 }
 
-section{
-    padding: 100px 200px;
-}
-
 .main{
+    padding: 100px 200px;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -109,7 +106,7 @@ section{
     display: flex;
     align-items: center;
     background-size: cover;
-    background: url(images/login3.jpg   ) no-repeat;
+    background: url(images/login3.jpg) no-repeat;
     background-position: center;
     background-attachment: fixed;
     font-size: 1.5em;
@@ -165,9 +162,53 @@ section{
 
 .login .table{
     background-color: rgb(168, 168, 168);
-    background: url(images/login5.jpg   ) no-repeat;
+    background: url(images/login5.jpg) no-repeat;
     width: 538px;
     height: 212px;
     border-radius: 10px;
     padding: 0 20px;
+}
+
+.hakkında .head{
+    clear: both;
+    color: #3a6cf4;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 15px 575px;
+}
+
+.hakkında .body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 30px;
+    background: url(images/hakında6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hakkında h2{
+    margin-bottom: 10px;
+    color: #3a6cf4;
+}
+
+.hakkında h3{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hakkında .one{
+    width: 400px;
+    height: 214px;
+    margin: 0px 25px;
+    float: left;
+}
+
+.hakkında .two{
+    width: 327px;
+    height: 214px;
+    float: left;
 }
