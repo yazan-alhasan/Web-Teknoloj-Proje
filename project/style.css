@@ -179,7 +179,7 @@ header{
     z-index: 999;
     display: flex;
     align-items: center;
-    padding: 15px 560px;
+    padding: 1% 42%;
 }
 
 .hakkında .body{
@@ -227,6 +227,11 @@ header{
     padding-top: 4%;
 }
 
+.eğitim{
+    background: url(images/login4.jpg) no-repeat;
+    background-size: cover;
+}
+
 .eğitim h2{
     font-weight: 700;
     color: #3a6cf4;
@@ -235,5 +240,41 @@ header{
 
 .eğitim p{
     padding-left: 4%;
+    padding-bottom: 0.35%;
     font-weight: 500;
+    color: #fff;
+}
+
+.head-şehrim{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding-left: 38%;
+}
+
+.şehrim{
+    background: url(images/login4.jpg) no-repeat;
+    background-size: cover;
+}
+
+.şehrim .main-1{
+    font-weight: 700;
+    color: #3a6cf4;
+    padding: 6% 2% 1%;
+}
+
+.şehrim .main-2{
+    font-weight: 700;
+    color: #3a6cf4;
+    padding: 1% 2% 1%;
+}
+
+.şehrim h3{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    font-weight: 500;
+    color: #fff;
 }
