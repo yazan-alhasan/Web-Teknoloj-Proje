@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px 10px 200px;
+    padding: 1% 5% 1% 15%;
 }
 
 .logo{
@@ -39,12 +39,12 @@ header{
 }
 
 .main{
-    padding: 100px 200px;
+    padding: 7.5% 15%;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/desktop.lnk) no-repeat;
+    background: url(images/login4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -91,13 +91,12 @@ header{
     background-color: #601cfc;
     transform: scale(1.1);
 }
+
 .social-icons a{
     color: #fff;
     font-size: 1.7em;
     padding-right: 30px;
 }
-
-
 
 .login{
     width: 100%;
@@ -163,7 +162,7 @@ header{
 .login .table{
     background-color: rgb(168, 168, 168);
     background: url(images/login5.jpg) no-repeat;
-    width: 538px;
+    width: 100%;
     height: 212px;
     border-radius: 10px;
     padding: 0 20px;
@@ -186,18 +185,20 @@ header{
     width: 100%;
     min-height: 100vh;
     padding: 30px 30px;
-    background: url(images/hakında6.jpg) no-repeat;
+    background: url(images/login4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hakkında h2{
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     color: #3a6cf4;
 }
 
 .hakkında h3{
-    margin-bottom: 10px;
+    margin-bottom: 1%;
+    padding-left: 3%;
     color: #fff;
 }
 
@@ -205,13 +206,12 @@ header{
     width: 400px;
     height: 214px;
     margin: 0px 25px;
-    float: left;
 }
 
 .hakkında .two{
-    width: 327px;
+    padding-left: 6%;
+    width: 425px;
     height: 214px;
-    float: left;
 }
 
 .head-eğitim{
@@ -260,9 +260,10 @@ header{
 }
 
 .şehrim .main-1{
+    clear: both;
     font-weight: 700;
     color: #3a6cf4;
-    padding: 6% 2% 1%;
+    padding: 80px 2% 1%;
 }
 
 .şehrim .main-2{
@@ -277,4 +278,43 @@ header{
     padding-bottom: 1%;
     font-weight: 500;
     color: #fff;
+}
+
+.head-miras{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    padding-left: 38%;
+}
+
+.miras{
+    background: url(images/login4.jpg) no-repeat;
+    background-size: cover;
+}
+
+.miras h2{
+    padding-top: 80px;
+    color: #3a6cf4;
+    padding-left: 2%;
+    font-weight: 700;
+}
+
+.miras h3{
+    padding: 2% 3% 0;
+    font-weight: 500;
+    color: #fff;
+}
+
+.miras img{
+    float: left;
+}
+
+.miras .tanıtmak span{
+    color: #3a6cf4;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding-right: 31%;
+    text-transform: uppercase;
 }
