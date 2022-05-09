@@ -318,3 +318,15 @@ header{
     padding-right: 31%;
     text-transform: uppercase;
 }
+
+.ilgi{
+    background: url(images/login4.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container .header .h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
