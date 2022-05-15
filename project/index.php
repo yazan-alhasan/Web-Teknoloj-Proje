@@ -16,7 +16,7 @@
         }
     </style>
 <?php 
-    $email="b211210580@gmail.com";
+    $email="b211210580@sakarya.edu.tr";
     $pass="b211210580";
     if($_POST["Email"]==$email && $_POST["Pass"]==$pass)
     {

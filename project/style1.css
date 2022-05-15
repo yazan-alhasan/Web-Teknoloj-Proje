@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% 1% 15%;
+}
+.php p{
+    color: #3a6cf4;
+    background-color: #f0f0f0;
+    width: 100%;
+    font-weight: 700;
+    font-size:1.4em; 
+    padding: 1% 30%;
+}
+
+.php{
+    background-size: cover;
+    background: url(images/login3.jpg) no-repeat;
+}
+.font{
+    color: #fff;
+    padding-top: 5%;
+    padding-left: 36%;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.font td{
+    padding-bottom: 2%;
+    padding-left:10px;
+}
+
+.iletişim{
+    background-size: cover;
+    background: url(images/login3.jpg) no-repeat;
+}
+
+.iletişim-head h1{
+    height: 60px;
+    font-size: 2.3em;
+    text-align: center;
+    color: #3a6cf4;
+    background-color: #f0f0f0;
+}
+
+.head2{
+    padding-top: 0.7%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffffff;
+    padding-bottom: 3%;
+}
+
+.iletişim-main{
+    color: #fff;
+} 
+
+.iletişim-main .first{
+    padding-left: 40%;
+} 
+
+.iletişim-main .first td{
+    color: #fff;
+    padding-bottom: 6%;
+} 
+
+.iletişim-main .second td{
+    color: #fff;
+    padding-bottom: 4%;
+} 
+
+.iletişim-main .radio{
+    padding-left: 40%;
+}
+
+.iletişim-main .radio span{
+    padding-left: 7%;
+}
+
+.iletişim .text{
+    padding-left: 2%;
+}
+
+.iletişim .option{
+    margin-bottom: 1%;
+    margin-left: 45%;
+}
+
+.iletişim-main .second{
+    padding-left: 25%;
+} 
+
+.iletişim-main .second .pad{
+    padding-left: 30px;
+} 
+
+.iletişim .form-control{
+    margin-left: 40%;
+    width: 245px;
+    height: 60px;
+}
+
+.iletişim .button1,.button2{
+    background-color: #41444d;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+}
+
+.iletişim .button1:hover,.button2:hover{
+    background-color: #808080;
+    color: #601cfc;
+}
+
+.iletişim .button{
+    padding-left: 40%;
+}
+
+.iletişim .button .button2{
+    margin-left: 5%;
+}
+@media(max-width:1023px){ 
+    .iletişim-head h1{
+        font-size: 2em;
+    }
+    .head2{
+        font-size: 1.2em;
+    }
+    .iletişim-main .first{
+        padding-left: 20%;
+    } 
+    .iletişim-main .radio{
+        padding-left: 20%;
+    }
+    .iletişim .option{
+        margin-left: 25%;
+    }
+    .iletişim-main .second{
+        padding-left: 0;
+    } 
+    
+    .iletişim-main .second .pad{
+        padding-left: 0;
+    } 
+    .iletişim .form-control{
+        margin-left: 20%;
+        width: 245px;
+        height: 60px;
+    }
+    .iletişim .button{
+        padding-left: 20%;
+    }
+    .font{
+        color: #fff;
+        padding-top: 5%;
+        padding-left: 20%;
+        font-weight: 500;
+        font-size: 1em;
+    }
+}

@@ -4,34 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>Document</title>
-    <style>
-        .php p{
-            color: #3a6cf4;
-            background-color: #f0f0f0;
-            width: 100%;
-            font-weight: 700;
-            font-size:1.4em; 
-            padding: 1% 30%;
-        }
-
-        .php{
-            background-size: cover;
-            background: url(images/login3.jpg) no-repeat;
-        }
-        .font{
-            color: #fff;
-            padding-top: 5%;
-            padding-left: 36%;
-            font-weight: 500;
-            font-size: 1.3em;
-        }
-        .font td{
-            padding-bottom: 2%;
-            padding-left:10px;
-        }
-    </style>
+    
 </head>
 <body class="php">
         <p>Bilgileriniz Başarılı Bir Şekilde Gönderilmiştir</p>

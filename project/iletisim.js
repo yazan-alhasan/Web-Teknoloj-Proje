@@ -11,14 +11,14 @@ function funk() {
     a = document.forms["form"]["ad"].value;
     if(a.length > 15 || a == "" || a == null) 
     {
-        alert("adınız uzun olmasın!\nadınız boş olmasın!");
+        alert("adınız uzun olmasın!<br>adınız boş olmasın!");
         return false;
     }
     
     b = document.forms["form"]["soyad"].value;
     if(b.length > 10 || b == "" || b == null) 
     {
-        alert("soyadınız uzun olmasın!\ndoyadınız boş olamsın!");
+        alert("soyadınız uzun olmasın!<br>doyadınız boş olamsın!");
         return false;
     }
 
@@ -31,14 +31,14 @@ function funk() {
     }
     if(sayac == 0 || d == "" || d[0] == "@") 
     {
-        alert("mail boş bırakmayınız!\n@ operatoru kullanmanız gerekiyor!");
+        alert("mail boş bırakmayınız!<br>@ operatoru kullanmanız gerekiyor!");
         return false;
     }
     
     c = document.forms["form"]["sifre"].value.toString();
     if(c != d.toString().substring(0,c.length) || c == "") 
     {
-        alert("sifre hatalıdır!\nsifreniz epostanızdaki @ operatorunden onceki harflerdir");
+        alert("sifre hatalıdır!<br><b>sifreniz epostanızdaki @ operatorunden onceki harflerdir</b>");
         return false;
     }
     
