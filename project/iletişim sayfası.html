@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .iletişim{
+    background-size: cover;
+    background: url(images/login3.jpg) no-repeat;
+}
+
+.iletişim-head h1{
+    height: 60px;
+    font-size: 2.3em;
+    text-align: center;
+    color: #3a6cf4;
+    background-color: #f0f0f0;
+}
+
+.head2{
+    padding-top: 0.7%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffffff;
+    padding-bottom: 3%;
+}
+
+.iletişim-main{
+    color: #fff;
+} 
+
+.iletişim-main .first{
+    padding-left: 40%;
+} 
+
+.iletişim-main .first td{
+    color: #fff;
+    padding-bottom: 6%;
+} 
+
+.iletişim-main .second td{
+    color: #fff;
+    padding-bottom: 4%;
+} 
+
+.iletişim-main .radio{
+    padding-left: 40%;
+}
+
+.iletişim-main .radio span{
+    padding-left: 7%;
+}
+
+.iletişim .text{
+    padding-left: 2%;
+}
+
+.iletişim .option{
+    margin-bottom: 1%;
+    margin-left: 45%;
+}
+
+.iletişim-main .second{
+    padding-left: 25%;
+} 
+
+.iletişim-main .second .pad{
+    padding-left: 30px;
+} 
+
+.iletişim .form-control{
+    margin-left: 40%;
+    width: 245px;
+    height: 60px;
+}
+
+.iletişim .button1,.button2{
+    background-color: #41444d;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1em;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+}
+
+.iletişim .button1:hover,.button2:hover{
+    background-color: #808080;
+    color: #601cfc;
+}
+
+.iletişim .button{
+    padding-left: 40%;
+}
+
+.iletişim .button .button2{
+    margin-left: 5%;
+}
+    </style>
+</head>
+<body class="iletişim">
+    <div class="iletişim-head">
+            <h1>İletişim</h1>
+    </div>
+    <p class="head2">aşadaki form doldurun lütfen</p>
+    <div class="iletişim-main">
+        <form action="iletisim.php" name="form" method="post" onsubmit="return funk()">
+            <table class="first">
+                <tr>
+                    <td>AD</td>
+                    <td>:</td>
+                    <td class="text"><input type="text" name="ad" placeholder="ad..."></td>
+                </tr>
+                <tr> 
+                    <td>SOYAD</td>
+                    <td>:</td>
+                    <td class="text"><input type="text" name="soyad" placeholder="soyad..."></td>
+                </tr>
+                <tr>
+                    <td>EMAİL</td>
+                    <td>:</td>
+                    <td class="text"><input type="text" name="eposta" placeholder="email giriniz..."></td> 
+                </tr>
+                <tr>
+                    <td>ŞİFRE</td>
+                    <td>:</td>
+                    <td class="text"><input type="password" name="sifre" placeholder="şifre..."></td>
+                </tr>
+                <tr>
+                    <td>OKUL</td>
+                    <td>:</td>
+                    <td class="text"><input type="text" name="universite"  list="universiteler" placeholder="okul seçiniz..."></td>
+                </tr>
+            </table>
+            <div class="radio">
+                <input type="radio" name="cinsiyet" value="ERKEK"> Erkek
+                <span></span>
+                <input type="radio" name="cinsiyet" value="KADIN"> Kadın
+            </div>
+
+            <datalist   id="universiteler">
+                <option value="sau">Sakarya Üniversitesi</option>
+                <option value="subu">Sakarya Uygulamalı Bilimler Üniversitesi</option>
+                <option value="itu">İstanbul Teknik Üniversitesi</option>
+            </datalist><br>
+
+            <select name="form-tipi" id="form-tipi" class="option">
+                <option value="belirtilmedi">Please Select</option>
+                <option value="öneri" id="oneri">öneri</option>
+                <option value="soru" id="soru">soru</option>
+                <option value="şikayet" id="sikatet">şikayet</option>
+                <option value="belirtilmedi" id="diger">diğer</option>
+            </select><br>
+
+            <table class="second">
+                <tr>
+                    <td class="pad"><input type="checkbox" name="ders" id="web" value="web teknolojileri" > WEB TEKNOLOJİLERİ </td>
+                    <td class="pad"><input type="checkbox" name="ders" id="ndp" value="nesneye dayalı programlama"> NESNEYE DAYALI PROGRAMLAMA </td>
+                    <td class="pad"><input type="checkbox" name="ders" id="mat" value="matematik-2"> MATEMATİK-2 </td>
+                </tr>
+
+                <tr>
+                    <td class="pad"><input type="checkbox" name="ders" id="fzk" value="fizik-2"> FİZİK-2  </td>
+                    <td class="pad"><input type="checkbox" name="ders" id="ols" value="olasılık ve istatistik"> OLASILIK VE İSTATİSTİK  </td>
+                    <td class="pad"><input type="checkbox" name="ders" id="ing" value="ingilizce"> İNGİLİZCE  </td>
+                </tr> 
+            </table>
+
+            <textarea name="mesaj" class="form-control" ></textarea> <br> 
+            <div class="button">  
+                <input type="submit" value="gönder" id="btnGonder" class="button1">
+                <input type="reset" value="reset" class="button2">
+            </div>
+        </form>
+    </div>
+    <script src="iletisim.js"></script>
+</body>
+</html>
